@@ -17,8 +17,8 @@ target "build" {
       "base",
       "small",
       "medium",
-      "large-v2",
       "large-v3",
+      "distil-large-v3"
     ]
     "LANG" = [
       "en",
@@ -53,7 +53,13 @@ target "build" {
       "nn",
       "sk",
       "sl",
-      "hr"
+      "hr",
+      "ro",
+      "eu",
+      "gl",
+      "ka",
+      "lv",
+      "tl",
     ]
   }
 
