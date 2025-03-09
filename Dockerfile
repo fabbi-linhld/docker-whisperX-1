@@ -61,6 +61,9 @@ RUN --mount=type=cache,id=pip-$TARGETARCH$TARGETVARIANT,sharing=locked,target=/r
     pip install -U --extra-index-url https://download.pytorch.org/whl/cu121 \
     torch==2.2.2 torchaudio==2.2.2 \
     pyannote.audio==3.1.1 \
+    uvicorn[standard]==0.34.0 \
+    fastapi==0.115.6 \
+    pydantic==2.10.3 \
     # https://github.com/jim60105/docker-whisperX/issues/40
     "numpy<2.0"
 
